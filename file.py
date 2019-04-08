@@ -1,6 +1,6 @@
-fd = "myname.txt"
+fd = "name.txt"
 
-file = open(fd, 'w')
+file = open(fd, 'a')
 file.write("Hello Aayush Sir")
 file.close()
 file = open(fd, 'r')
