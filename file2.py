@@ -1,0 +1,15 @@
+fd = "myname2.txt"
+fd2= "file2.txt"
+file = open(fd, 'w')
+name = input("Enter your name\n")
+file.write(name)
+file.close()
+file = open(fd, 'r')
+text = file.read()
+file2= open(fd2,'w')
+file2.write(text)
+file2.close()
+file2= open(fd2,'r')
+text2=file2.read()
+print(text+ " (From first file)")
+print(text2+" (From second file)")
